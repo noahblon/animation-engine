@@ -1,0 +1,24 @@
+{
+  "name": "animation-engine",
+  "version": "0.0.0-semantically-released",
+  "description": "A DOM animation engine using the Web Animations API for silky smooth anomations.",
+  "main": "src/index.js",
+  "repository": "git@github.com:noahblon/animation-engine.git",
+  "author": "Noah Blon <noahblon@gmail.com> (noahblon@gmail.com)",
+  "license": "MIT",
+  "scripts": {
+    "commit": "git-cz",
+    "commitmsg": "validate-commit-msg"
+  },
+  "config": {
+    "commitizen": {
+        "path": "cz-conventional-changelog"
+    }
+  },
+  "devDependencies": {
+    "commitizen": "2.9.4",
+    "cz-conventional-changelog": "1.2.0",
+    "husky": "0.12.0",
+    "validate-commit-msg": "2.8.2"
+  }
+}
