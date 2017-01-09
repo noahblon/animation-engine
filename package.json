@@ -11,6 +11,7 @@
     "commitmsg": "validate-commit-msg",
     "lint": "eslint **/*.js",
     "precommit": "npm run validate",
+    "report": "cat ./coverage/lcov.info | codecov",
     "test": "cross-env NODE_ENV=test nyc blue-tape **/*.test.js | tap-diff",
     "validate": "npm-run-all --parallel lint test"
   },
@@ -21,6 +22,7 @@
   },
   "devDependencies": {
     "blue-tape": "1.0.0",
+    "codecov": "1.0.1",
     "commitizen": "2.9.4",
     "cross-env": "3.1.4",
     "cz-conventional-changelog": "1.2.0",
