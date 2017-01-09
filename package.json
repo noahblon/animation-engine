@@ -10,6 +10,7 @@
     "commit": "git-cz",
     "commitmsg": "validate-commit-msg",
     "lint": "eslint **/*.js",
+    "precommit": "npm run validate",
     "test": "cross-env NODE_ENV=test nyc blue-tape **/*.test.js | tap-diff",
     "validate": "npm-run-all --parallel lint test"
   },

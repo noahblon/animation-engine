@@ -5,7 +5,7 @@ test('should pass', assert => {
     assert.equal(
         sample.test(),
         true,
-        'equals true!'
+        'equals true!',
     )
     assert.end()
 })
