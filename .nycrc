@@ -8,10 +8,12 @@
     "text",
     "lcov"
   ],
-  "instrument": true,
-  "sourceMap": true,
+  "instrument": false,
+  "sourceMap": false,
+  "require": [
+    "babel-register"
+  ],
   "include": [
-    "src",
-    "test"
+    "src"
   ]
 }
